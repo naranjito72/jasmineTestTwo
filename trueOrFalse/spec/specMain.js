@@ -48,6 +48,6 @@ describe('Returning "undefined"', function(){
   it('Should return "undefined" when an empty object is passed as parameter', function(){
     let obj = {}
     expect(thereAreDuplicates(obj)).not.toBe(null);
-    expect(thereAreDuplicates(obj)).toBe(null);
+    expect(thereAreDuplicates(obj)).toBe(undefined);
   })
 })

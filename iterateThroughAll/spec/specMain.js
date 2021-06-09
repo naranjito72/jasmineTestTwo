@@ -12,7 +12,7 @@ describe('Response type function with numbers', function(){
     {case: findAllDuplicates([9, 10, 11, 12]), answer: undefined}
   ]
   arrParameters.forEach((item, i) => {
-    it(`Should return an array of numbers when repeated matches and "undefined" if there are no matches (array number: ${i + 1}) ${item.arr} `, function(){
+    it(`Should return an array of numbers when repeated matches and "undefined" if there are no matches array number: ${i + 1} return ${item.answer} `, function(){
       expect(item.case).toEqual(item.answer)
     });
   });
@@ -25,7 +25,7 @@ describe('Response type function with strings', function(){
     {case: findAllDuplicates(["ab", "bd", "ch", "fk"]), answer: undefined}
   ]
   arrParameters.forEach((item, i) => {
-    it(`Should return an array of numbers when repeated matches and "undefined" if there are no matches (array number: ${i + 1}) ${item.arr} `, function(){
+    it(`Should return an array of strings when repeated matches, one string if only one repeated and "undefined" if there are no matches array number: ${i + 1} return ${item.answer} `, function(){
       expect(item.case).toEqual(item.answer)
     });
   });

@@ -21,7 +21,7 @@ describe('When to return false', function(){
     {case: thereAreDuplicates([9, 10, 11, 12]), answer: false}
   ]
   arrParameters.forEach((item, i) => {
-    it(`Should return "false" when no repeated matches (array number: ${i + 1}) ${item.arr} `, function(){
+    it(`Should return "false" when no repeated matches array number: ${i + 1} return: ${item.answer} `, function(){
       expect(item.case).toEqual(item.answer)
     })
   });
@@ -34,7 +34,7 @@ describe('When to return true', function(){
     {case: thereAreDuplicates([9, 10, 11, 12, 9, 10, 11]), answer: true}
   ]
   arrParameters.forEach((item, i) => {
-    it(`Should return "true" when repeated matches are inside the array (array number: ${i + 1}) ${item.arr} `, function(){
+    it(`Should return "true" when repeated matches are inside the array number: ${i + 1} return: ${item.answer} `, function(){
       expect(item.case).toEqual(item.answer)
     })
   });
@@ -43,6 +43,11 @@ describe('When to return true', function(){
 describe('Returning "undefined"', function(){
   it('Should return "undefined" when is injected an empty array as a parameter', function(){
     let arr = [];
-    expect(thereAreDuplicates([])).toEqual(undefined);
+    expect(thereAreDuplicates(arr)).toEqual(undefined);
+  });
+  it('Should return "undefined" when an empty object is passed as parameter', function(){
+    let obj = {}
+    expect(thereAreDuplicates(obj)).not.toBe(null);
+    expect(thereAreDuplicates(obj)).toBe(null);
   })
 })

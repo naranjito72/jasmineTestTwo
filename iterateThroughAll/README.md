@@ -31,3 +31,5 @@ A function that generates a random array of numbers.
 ### Documentation
 
 Credit to Stack Overflow [answer](https://stackoverflow.com/questions/840781/get-all-non-unique-values-i-e-duplicate-more-than-one-occurrence-in-an-array?page=1&tab=votes#tab-top)
+
+How to convert Objects into Arrays by [*Samantha Ming*](https://www.samanthaming.com/tidbits/76-converting-object-to-array/) and by [*javascripttutorial.net*](https://www.javascripttutorial.net/object/convert-an-object-to-an-array-in-javascript/#:~:text=To%20convert%20an%20object%20to%20an%20array%20you%20use%20one,entries()%20.)

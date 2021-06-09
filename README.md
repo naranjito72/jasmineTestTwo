@@ -1,20 +1,22 @@
-# My first Jasmine test
+# Second Jasmine test
 
-### Jasmine Suite
+### Jasmine Suite used
 
 Downloaded Jasmine [standalone](https://github.com/jasmine/jasmine/releases) from the Jasmine GitHub pages
 
-Installed in the project
+### Functions to be tested
 
-Customized.
+  * findOneAndSkip()
 
-### Test to be tested
+  * iterateThroughAll()
 
-  * Function is a Function
+  * trueOrFalse()
 
-  * What number is repeated
+### Assignment
 
-  * No numbers are repeated
+Create a series of Jasmine test in order to check the mentioned functions.
+
+Every folder gives you and overall of what to expect from the Jasmine test unit  ✔
 
 ### Documentation
 
@@ -41,15 +43,3 @@ A must read about [**Set**](https://developer.mozilla.org/en-US/docs/Web/JavaScr
 [**Split, Splice, Slice**](https://medium.com/@jeanpan/javascript-splice-slice-split-745b1c1c05d2) JavaScript methods
 
 Multiple test in Jasmine by [*Harvey Delany*](https://blog.harveydelaney.com/running-multiple-test-cases-in-jasmine/)
-
-<!--
-"What you know" by Two Door Cinema Club
-"My Type" by Saint Motel
-"Counting Down the days (feat. Gemma Hayes)" by Above & Beyond
-"Young Folks" by Peter Björn and John
-"3 Nights" by Dominic Fike
-"White Lies" by Max Frost
-"Tongue Tied" by Atlantic Records
-"Hans Zimmer - S.T.A.Y (Madis remix)Theme INTERSTELLAR" by MadisMusic
-
--->

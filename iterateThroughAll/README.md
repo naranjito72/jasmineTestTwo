@@ -30,6 +30,10 @@ A function that generates a random array of numbers.
 
 ### Documentation
 
-Credit to Stack Overflow [answer](https://stackoverflow.com/questions/840781/get-all-non-unique-values-i-e-duplicate-more-than-one-occurrence-in-an-array?page=1&tab=votes#tab-top)
+Get all non unique values @[**Stack Overflow**](https://stackoverflow.com/questions/840781/get-all-non-unique-values-i-e-duplicate-more-than-one-occurrence-in-an-array?page=1&tab=votes)
 
 How to convert Objects into Arrays by [*Samantha Ming*](https://www.samanthaming.com/tidbits/76-converting-object-to-array/) and by [*javascripttutorial.net*](https://www.javascripttutorial.net/object/convert-an-object-to-an-array-in-javascript/#:~:text=To%20convert%20an%20object%20to%20an%20array%20you%20use%20one,entries()%20.)
+
+Running multiple tests cases by [*Harvey Delaney*](https://blog.harveydelaney.com/running-multiple-test-cases-in-jasmine/)
+
+Check objects in [**Jasmine**](https://jasmine.github.io/2.2/introduction.html#section-Partial_Matching_with_<code>jasmine.objectContaining</code>) unit test

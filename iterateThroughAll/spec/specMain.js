@@ -38,6 +38,21 @@ describe('Response on empty parameter', function(){
   });
 });
 
-describe('Response to an object as parameter', function(){
-  // code here
-})
+describe('Check if it is a proper object using jasmine.any', function(){
+  var objectTwo = {};
+  beforeEach(function(){
+    objectTwo = {
+      a: "ab",
+      b: "bc",
+      c: "cd",
+      d: "de",
+      e: "ab"
+    }
+  });
+  it('Checks if it is an Object', function(){
+    expect((objectTwo)).toEqual(jasmine.any(Object));
+  });
+  it('Returns an array if object is a parameter', function(){
+    expect(findAllDuplicates(objectTwo)).toEqual(["ab"]);
+  });
+});

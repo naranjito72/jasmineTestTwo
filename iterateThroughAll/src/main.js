@@ -1,5 +1,6 @@
 // find all matches inside Array
 function findAllDuplicates(arrElements) {
+    (!Array.isArray(arrElements)) ? arrElements = Object.values(arrElements) : arrElements;
     let uniqueElements = new Set(arrElements);
     let filteredElements = arrElements.filter((item) => {
         if (uniqueElements.has(item)) {

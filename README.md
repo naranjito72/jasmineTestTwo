@@ -20,6 +20,7 @@ Every folder gives you and overall of what to expect from the Jasmine test unit 
 
 ### Documentation
 
+###### Jasmine related
 [**FreeCodeCamp**](https://www.freecodecamp.org/news/jasmine-unit-testing-tutorial-4e757c2cbf42/)
 
 [**Udemy**](https://www.udemy.com/course/refactoru-intro-unit-test/?src=sac&kw=introduction+to+unit+tes): *Introduction to unit testing*
@@ -28,13 +29,15 @@ Every folder gives you and overall of what to expect from the Jasmine test unit 
 
 Chapter [**four**](https://www.oreilly.com/library/view/javascript-testing-with/9781449356729/ch04.html) of *JavaScript Testing* by *Evan Hahn*
 
-Get all non unique values @[**Stack Overflow**](https://stackoverflow.com/questions/840781/get-all-non-unique-values-i-e-duplicate-more-than-one-occurrence-in-an-array?page=1&tab=votes)
+Multiple test in Jasmine by [*Harvey Delany*](https://blog.harveydelaney.com/running-multiple-test-cases-in-jasmine/)
+
+###### Technical doubts
 
 [**Objects I**](https://www.digitalocean.com/community/tutorials/understanding-objects-in-javascript)
 
 [**object II**](https://www.digitalocean.com/community/tutorials/how-to-use-object-methods-in-javascript)
 
-A very interestin [**DRY**](https://thevaluable.dev/dry-principle-cost-benefit-example/) lecture by [*Mattheiu Cneude*](https://thevaluable.dev/page/about/)
+A very interesting [**DRY**](https://thevaluable.dev/dry-principle-cost-benefit-example/) lecture by [*Mattheiu Cneude*](https://thevaluable.dev/page/about/)
 
 A must read about [**Set**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set);
 
@@ -42,4 +45,6 @@ A must read about [**Set**](https://developer.mozilla.org/en-US/docs/Web/JavaScr
 
 [**Split, Splice, Slice**](https://medium.com/@jeanpan/javascript-splice-slice-split-745b1c1c05d2) JavaScript methods
 
-Multiple test in Jasmine by [*Harvey Delany*](https://blog.harveydelaney.com/running-multiple-test-cases-in-jasmine/)
+###### README syntax
+
+[**Markdown**](https://www.markdownguide.org/extended-syntax/) syntax

@@ -18,15 +18,15 @@ A function that generates a random array of numbers.
   * jasmine stand alone 3.7.1 form GitHub [**repository**](https://github.com/jasmine/jasmine/releases)
 
   * Installed and customized to the needs of the function
-  ###### Features checked
+###### Features checked
 
-    * Function is a Function
+  * Function is a Function
 
-    * Type of return: [*number*], [*string*] or [*undefined*]
+  * Type of return: [*number*], [*string*] or [*undefined*]
 
-    * Only returns one number despite if there are many matches or only one match
+  * Only returns one number despite if there are many matches or only one match
 
-    * Empty parameter response function: [*undefined*]
+  * Empty parameter response function: [*undefined*]
 
 ### Documentation
 

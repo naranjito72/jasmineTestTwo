@@ -56,3 +56,26 @@ describe('Check if it is a proper object using jasmine.any', function(){
     expect(findAllDuplicates(objectTwo)).toEqual(["ab"]);
   });
 });
+
+describe('Diferents outputs whit object', function(){
+  it('Should return a diferent types of data with the typpe of object data', function() {
+    var objectTwo = {
+      a: "ab",
+      b: "bc",
+      c: "cd",
+      d: "de",
+      e: "ab"
+    }
+    var objectOne = {
+      1: 1,
+      2: 5,
+      3: 3,
+      4: 1,
+      5: 7
+    }
+    var objectThree = {}
+    expect(findAllDuplicates(objectTwo)).toEqual(["ab"]);
+    expect(findAllDuplicates(objectOne)).toEqual([1]);
+    expect(findAllDuplicates(objectThree)).toEqual(undefined);
+  })
+})

@@ -1,6 +1,6 @@
 # True or False
 
-A function developed to return a boolean response about if an array contains repeated elements. has been tested to be used with the primitive type of data [**number**] and [**undefined**]
+A function developed to return a boolean response about if an array contains repeated elements. has been tested to be used with the primitive type of data *number* and *undefined*
 
 Use of [**SET**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set) JavaScript method in order to achieve the response.
 
@@ -16,10 +16,10 @@ Use of [**SET**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referen
 
   * Function is a Function
 
-  * Type of return: [*boolean*]
+  * Type of return: *boolean*
 
-  * Empty parameter response function: [*undefined*]
+  * Empty parameter response function: *undefined*
 
-  * When to return [*true*]
+  * When to return *true*
 
-  * When to return [*false*]
+  * When to return *false*

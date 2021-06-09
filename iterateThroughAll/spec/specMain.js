@@ -37,3 +37,7 @@ describe('Response on empty parameter', function(){
     expect(findAllDuplicates(arrNum)).toEqual(undefined);
   });
 });
+
+describe('Response to an object as parameter', function(){
+  // code here
+})

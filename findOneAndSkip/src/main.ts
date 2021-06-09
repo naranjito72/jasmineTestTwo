@@ -1,7 +1,6 @@
 // find match and skip the search
 
 function findNumberAndSkip(arrNum: number[]): number[] {
-
   let numberContainer: number[] = [];
   let i: number = arrNum.length;
   let found: boolean = false;

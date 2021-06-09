@@ -1,6 +1,6 @@
 // using set to determinate if there is/are any matching elements
 
-function thereAreDuplicates (arrNum: number[]): boolean {
+function thereAreDuplicates(arrNum: number[]): boolean {
   let matches: boolean;
   let mySet: any = [...new Set(arrNum)];
   if (mySet.length == 0 || arrNum.length == 0) return undefined;

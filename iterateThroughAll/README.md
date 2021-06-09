@@ -22,11 +22,11 @@ A function that generates a random array of numbers.
 
   * Function is a Function
 
-  * Type of return: [*number*], [*string*] or [*undefined*]
+  * Type of return: *number*, *string* or *undefined*
 
   * Only returns one number despite if there are many matches or only one match
 
-  * Empty parameter response function: [*undefined*]
+  * Empty parameter response function: *undefined*
 
 ### Documentation
 

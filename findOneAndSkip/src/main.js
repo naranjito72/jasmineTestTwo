@@ -1,4 +1,3 @@
-// find match and skip the search
 function findNumberAndSkip(arrNum) {
     let numberContainer = [];
     let i = arrNum.length;

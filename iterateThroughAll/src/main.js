@@ -1,4 +1,4 @@
-// find all matches inside Array
+
 function findAllDuplicates(arrElements) {
     (!Array.isArray(arrElements)) ? arrElements = Object.values(arrElements) : arrElements;
     let uniqueElements = new Set(arrElements);

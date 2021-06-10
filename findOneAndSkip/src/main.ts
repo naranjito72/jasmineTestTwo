@@ -1,4 +1,3 @@
-// find match and skip the search
 
 function findNumberAndSkip(arrNum: number[]): number[] {
   let numberContainer: number[] = [];

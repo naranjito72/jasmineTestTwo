@@ -7,3 +7,5 @@ function thereAreDuplicates(arrNum: number[]): boolean {
   (mySet.length !== arrNum.length) ? matches = true : matches = false;
   return matches;
 }
+// ECMA6
+const hasDuplicates = (arr: any[]) => arr.some((values, indx) => arr.indexOf(values) !== indx);

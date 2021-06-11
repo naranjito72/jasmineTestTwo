@@ -8,3 +8,5 @@ function thereAreDuplicates(arrNum) {
     (mySet.length !== arrNum.length) ? matches = true : matches = false;
     return matches;
 }
+// ECMA6
+const hasDuplicates = (arr) => arr.some((values, indx) => arr.indexOf(values) !== indx);

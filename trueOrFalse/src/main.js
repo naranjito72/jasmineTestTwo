@@ -9,4 +9,4 @@ function thereAreDuplicates(arrNum) {
     return matches;
 }
 // ECMA6
-const hasDuplicates = (arr) => arr.some((values, indx) => arr.indexOf(values) !== indx);
+const hasDuplicates = (arr) => new Set(arr).size !== arr.length;

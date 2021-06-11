@@ -1,4 +1,4 @@
-
+// Classical programming
 function findAllDuplicates(arrElements) {
     (!Array.isArray(arrElements)) ? arrElements = Object.values(arrElements) : arrElements;
     let uniqueElements = new Set(arrElements);
@@ -17,3 +17,5 @@ function findAllDuplicates(arrElements) {
         return [...new Set(uniqueElements)];
     }
 }
+// ECMA6
+const findAllElements = (arr) => [...new Set(arr)].filter((value) => arr.indexOf(value) !== arr.lastIndexOf(value)).sort();

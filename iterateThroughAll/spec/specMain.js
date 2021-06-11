@@ -25,7 +25,7 @@ describe('Response type function with strings', function(){
     {case: findAllDuplicates(["ab", "bd", "ch", "fk"]), answer: undefined}
   ]
   arrParameters.forEach((item, i) => {
-    it(`Should return an array of strings when repeated matches, one string if only one repeated and "undefined" if there are no matches array number: ${i + 1} return ${item.answer} `, function(){
+    it(`Should return an array of strings when repeated matches, one string if only one repeated and "undefined" if there are no matches<br> array number: ${i + 1} return ${item.answer} `, function(){
       expect(item.case).toEqual(item.answer)
     });
   });
@@ -77,5 +77,45 @@ describe('Diferents outputs whit object', function(){
     expect(findAllDuplicates(objectTwo)).toEqual(["ab"]);
     expect(findAllDuplicates(objectOne)).toEqual([1]);
     expect(findAllDuplicates(objectThree)).toEqual(undefined);
-  })
-})
+  });
+});
+describe('findAllElements', () => {
+  it('Describes the object as a function', () => {
+    expect(typeof findAllElements).toBe('function');
+  });
+});
+describe('Returns with numbers', () => {
+  const arrParameters = [
+    {case: findAllElements([1, 2, 3, 3]), answer: [3]},
+    {case: findAllElements([5, 6, 7, 8, 6, 5]), answer: [5, 6]},
+    {case: findAllElements([9, 10, 11, 12, 12, 12, 12, 12]), answer: [12]}
+  ]
+  arrParameters.forEach((item, i) => {
+    it(`Returns an array of numbers whne repeated matches, a single number when only one match or same match is repeated (n)times: ${i +1} return ${item.answer}`, () => {
+      expect(item.case).toEqual(item.answer);
+    });
+  });
+});
+describe('Returns with strings', function(){
+  const arrParameters = [
+    {case: findAllElements(["ab", "bd", "ab", "ch", "fk"]), answer: ["ab"]},
+    {case: findAllElements(["ab", "bd", "ab", "ch", "fk", "ch", "fk"]), answer: ["ab", "ch", "fk"]},
+    {case: findAllElements(["ab", "bd", "fk", "fk", "fk", "ch", "fk"]), answer: ["fk"]}
+  ]
+  arrParameters.forEach((item, i) => {
+    it(`Should return an array of strings when repeated matches, one string if only one repeated or string only one is repeated several times array number: ${i + 1} return ${item.answer} `, function(){
+      expect(item.case).toEqual(item.answer)
+    });
+  });
+});
+describe('Returns empty array', function(){
+  const arrParameters = [
+    {case: findAllElements(["ab", "bd", "ch", "fk"]), answer: []},
+    {case: findAllElements([1, 2, 3, 4, 5, 6, 7]), answer: []}
+  ]
+  arrParameters.forEach((item, i) => {
+    it(`Does return an empty array when an empty arry is introduced as a parameter number: ${i + 1} return ${item.answer} `, function(){
+      expect(item.case).toEqual(item.answer)
+    });
+  });
+});

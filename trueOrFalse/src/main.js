@@ -1,3 +1,4 @@
+// classical programming
 function thereAreDuplicates(arrNum) {
     let matches;
     (!Array.isArray(arrNum)) ? arrNum = Object.values(arrNum) : arrNum;

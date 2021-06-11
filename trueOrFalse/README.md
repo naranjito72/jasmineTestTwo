@@ -23,3 +23,9 @@ Use of [**SET**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referen
   * When to return *true*
 
   * When to return *false*
+
+### Documentation
+
+[**.some()**](https://medium.com/poka-techblog/simplify-your-javascript-use-some-and-find-f9fb9826ddfd) by [*Etienne Talbot*](https://medium.com/@etiennetalbot)
+
+.indexOf() explanation by [**w3schools**](https://www.w3schools.com/jsref/jsref_indexof_array.asp) and [**MDN**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)

@@ -37,3 +37,5 @@ How to convert Objects into Arrays by [*Samantha Ming*](https://www.samanthaming
 Running multiple tests cases by [*Harvey Delaney*](https://blog.harveydelaney.com/running-multiple-test-cases-in-jasmine/)
 
 Check objects in [**Jasmine**](https://jasmine.github.io/2.2/introduction.html#section-Partial_Matching_with_<code>jasmine.objectContaining</code>) unit test
+
+.lastIndexOf() explanation by [**w3schools**](https://www.w3schools.com/jsref/jsref_lastindexof_array.asp) and [**MDN**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf)

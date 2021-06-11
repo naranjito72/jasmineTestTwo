@@ -47,3 +47,32 @@ describe('Response on empty parameter', function(){
     expect(findNumberAndSkip(arrNum)).toEqual(undefined);
   });
 });
+
+describe('findElementAndSkip', function(){
+  it('Describes object as a function',function(){
+    expect(typeof findElementAndSkip).toBe('function');
+  });
+});
+
+describe('Returns', () => {
+  it('Returns a type number', () => {
+      let arrNum = [1, 3, 2, 10, -1, 0, 3, 2];
+    expect(findElementAndSkip(arrNum)).toEqual(jasmine.any(Number));
+  });
+  it('Returns only one number when only one match in the array', () => {
+      let arrNum = [1, 3, 2, 10, -1, 0, 2];
+    expect(findElementAndSkip(arrNum)).toEqual(2);
+  });
+  it('Returns only one number when different matches', () => {
+      let arrNum = [1, 3, 2, 10, -1, 0, 3, 2, 1, 10];
+    expect(findElementAndSkip(arrNum)).toEqual(1);
+  });
+  it('Returns "undefined" when no matches at all', () => {
+      let arrNum = [1, 3, 2, 10, -1, 0];
+    expect(findElementAndSkip(arrNum)).toBe(undefined);
+  });
+  it('Returns "undefined" when an array of strings', () => {
+      let arrStr = ["ab", "bd", "ab", "ch", "fk", "ch", "fk"];
+    expect(findElementAndSkip(arrStr)).toBe(undefined);
+  });
+})

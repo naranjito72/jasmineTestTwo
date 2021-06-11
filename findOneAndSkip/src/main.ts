@@ -1,4 +1,4 @@
-
+// Every programmer from any language will understand
 function findNumberAndSkip(arrNum: number[]): number[] {
   let numberContainer: number[] = [];
   let i: number = arrNum.length;
@@ -13,3 +13,6 @@ function findNumberAndSkip(arrNum: number[]): number[] {
   (numberContainer.length == 0) ? numberContainer = undefined : numberContainer;
   return numberContainer;
 }
+
+// ECMA6
+const findElementAndSkip = (arr: number []): number => arr.sort((a, b) => a - b).find((el, indx, arrTwo) => arrTwo[indx] === arrTwo[indx + 1]);
